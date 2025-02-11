@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PEI/static/css/main.543715bf.css",
+    "main.js": "/PEI/static/js/main.47e95366.js",
+    "static/media/imagemEscola6.jpeg": "/PEI/static/media/imagemEscola6.01757de857261d269364.jpeg",
+    "static/media/imagemEscola4.jpeg": "/PEI/static/media/imagemEscola4.1d23b762320e67447451.jpeg",
+    "static/media/imagemEscola2.jpeg": "/PEI/static/media/imagemEscola2.8793499aa710a1689680.jpeg",
+    "static/media/imagemEscola1.jpeg": "/PEI/static/media/imagemEscola1.8747ebe6245f886191aa.jpeg",
+    "static/media/imagemEscola3.jpeg": "/PEI/static/media/imagemEscola3.9781f13d7993fce6e03c.jpeg",
+    "static/media/imagemEscola5.jpeg": "/PEI/static/media/imagemEscola5.dc52be552d598fceaa09.jpeg",
+    "static/media/logoBrasilia.png": "/PEI/static/media/logoBrasilia.bad6c5b0674a42d71753.png",
+    "static/media/imagemEscola.jpeg": "/PEI/static/media/imagemEscola.fe725dd4ac261542f0b7.jpeg",
+    "static/media/salaAula.jpg": "/PEI/static/media/salaAula.b4e0aba2be00316e5dde.jpg",
+    "static/media/livros.jpg": "/PEI/static/media/livros.7aa10f3f6ee670d6eaea.jpg",
+    "static/media/LOGO MENINO PEI.png": "/PEI/static/media/LOGO MENINO PEI.2a029d86efa06571b1b3.png",
+    "static/media/LOGO SEDUC.png": "/PEI/static/media/LOGO SEDUC.43bb702f2166375fbba7.png",
+    "index.html": "/PEI/index.html",
+    "main.543715bf.css.map": "/PEI/static/css/main.543715bf.css.map",
+    "main.47e95366.js.map": "/PEI/static/js/main.47e95366.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.543715bf.css",
+    "static/js/main.47e95366.js"
+  ]
+}
