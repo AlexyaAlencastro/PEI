@@ -1,0 +1,136 @@
+/* Cabecalho.css */
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Alinha logo e nome verticalmente */
+}
+
+.logo-left {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+}
+
+.school-name {
+  font-size: 1.2rem; /* Tamanho do texto do nome da escola */
+  font-weight: bold; /* Deixa o nome em negrito */
+  color: white; /* Cor do nome da escola */
+  margin: 5px;
+}
+
+.header {
+  background-color: #2563eb; /* Cor de fundo azul */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+  z-index: 10;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between; /* Manter as logos em suas posições */
+  align-items: center;
+  max-width: 1200px; /* A largura máxima pode ser ajustada conforme necessário */
+  margin: 0 auto;
+  position: relative; /* Mantém o layout correto do cabeçalho */
+}
+
+.header .logo-left {
+  height: 3rem;
+}
+
+.header .logos-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logos-right .logoSeduc {
+  height: 2rem;
+  margin-right: 10px;
+}
+
+.header .logos-right .logoMenino {
+  height: 4rem;
+}
+
+/* Barra de navegação */
+.navbar {
+  background-color: #1d4ed8; /* Cor de fundo azul escuro */
+  width: 100%; /* A largura da barra é 100% */
+  display: flex; /* Garante que os itens fiquem alinhados */
+  justify-content: center; /* Centraliza os itens no menu */
+  align-items: center; /* Alinha verticalmente */
+  padding: 10px 0; /* Espaçamento superior e inferior */
+  position: relative; /* Permite o posicionamento do submenu */
+  overflow: visible; /* Permite que o submenu não seja cortado */
+}
+
+/* Lista de navegação */
+.navbar ul {
+  display: flex;
+  justify-content: center; /* Centraliza os itens do menu */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Itens do menu */
+.navbar li {
+  padding: 1rem;
+  cursor: pointer;
+  color: white; /* Cor do texto */
+  position: relative; /* Permite posicionamento do submenu */
+}
+
+/* Efeito hover */
+.navbar li:hover {
+  background-color: #1e40af; /* Cor de hover */
+}
+
+/* Estilo para o dropdown */
+.dropdown {
+  display: none; /* O submenu está oculto por padrão */
+  position: absolute;
+  top: 100%; /* Coloca o submenu abaixo do item */
+  left: 0;
+  background-color: #1d4ed8; /* Cor de fundo do submenu */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 400px; /* Largura do submenu aumentada */
+  min-width: 400px; /* Garantir que o submenu não seja menor que 500px */
+  border-radius: 5px; /* Bordas arredondadas */
+  z-index: 20; /* Para garantir que fique acima dos outros elementos */
+  box-sizing: border-box; /* Garantir que padding não afete a largura total */
+}
+
+/* Exibe o dropdown quando o item PEI estiver sendo hover */
+.navbar li:hover .dropdown {
+  display: block; /* Exibe o submenu quando o item for hover */
+}
+
+/* Estilo dos itens dentro do dropdown */
+.dropdown li {
+  padding: 1rem;
+  cursor: pointer;
+  color: white;
+  border-bottom: 1px solid #2563eb; /* Linha entre os itens */
+  word-wrap: break-word; /* Garante que o texto não ultrapasse os limites */
+  white-space: normal; /* Permite que o texto quebre dentro do contêiner */
+}
+
+/* Remove a borda do último item */
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+/* Efeito hover nos itens do dropdown */
+.dropdown li:hover {
+  background-color: #1e40af;
+}
